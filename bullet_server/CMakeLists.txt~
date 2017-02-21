@@ -158,9 +158,9 @@ include_directories(
 # add_dependencies(bullet_server ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Declare a C++ executable
-SET(BulletServer_HDRS include/bullet_server.h include/Body.h include/Constraint.h include/SoftBody.h)
+SET(BulletServer_HDRS src/bullet_server.cpp src/Body.cpp src/Constraint.cpp src/SoftBody.cpp)
 SET(BulletServer_SRCS src/bullet_server.cpp src/Body.cpp src/Constraint.cpp src/SoftBody.cpp)
-add_executable(bullet_server ${BulletServer_HDRS} ${BulletServer_SRCS})
+add_executable(bullet_server ${BulletServer_SRCS})
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
