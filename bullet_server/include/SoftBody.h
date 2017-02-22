@@ -1,4 +1,3 @@
-
 #ifndef SOFT_BODY_HH
 #define SOFT_BODY_HH
 

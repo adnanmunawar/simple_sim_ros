@@ -1,4 +1,3 @@
-
 #ifndef BULLET_SERVER_HH
 #define BULLET_SERVER_HH
 

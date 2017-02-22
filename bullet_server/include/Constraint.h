@@ -1,5 +1,3 @@
-
-
 #ifndef CONSTRAINTS_HH
 #define CONSTRAINTS_HH
 

@@ -329,7 +329,7 @@ void BulletServer::update()
 }
 
 void BulletServer::removeConstraint(const Constraint* constraint,
-    const bool remove_from_bodies=false)
+    const bool remove_from_bodies)
 {
   if (remove_from_bodies)
   {
